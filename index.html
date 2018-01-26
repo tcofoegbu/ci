@@ -1,6 +1,57 @@
+<!DOCTYPE html>
 <html>
+<head>
 <meta name="google-site-verification" content="OvMWZachtnFVEJrWIM6OUkAErr_TWwwuf8sDtzkOVMQ" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>CyberIvy Coming Soon Page</title>
 
-<body>Welcome to CyberIvy website - site under construction!!! </body>
+<!--CSS-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-light.css">
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<!--/CSS-->
 
+<!--JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.plugin.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script>
+$(function () {
+	$('#defaultCountdown').countdown({until: new Date(2018, 3-1, 25)}); 
+	
+});
+</script>
+<!--/JS-->
+
+</head>
+
+<body>
+
+<!--DARK OVERLAY-->
+<div class="overlay"></div>
+<!--/DARK OVERLAY-->
+
+<!--WRAP-->
+<div id="wrap">
+	<!--CONTAINER-->
+	<div class="container">
+		<img src="images/paperplane.png" alt="Paper Plane" class="image-align" />
+		<h1>
+			<span>We are</span><br/>
+			Reaching For <span class="yellow">The Moon.</span>
+		</h1>
+		<p>CyberIvy website is currently <strong>under construction</strong> we are working hard<br/> to create an awesome design.</p>
+		<div id="defaultCountdown"></div>
+		<form action="#">
+			<input type="text" name="email" id="email" value="Subscribe to fond out when we are done">
+			<input type="submit" value="GO!">
+		</form>
+		<p class="copyright"> &copy; 2018 CyberIvy | email: info@cyberivy.com</p>
+	</div>
+	<!--/CONTAINER-->
+</div>
+<!--/WRAP-->
+
+</body>
 </html>
+
