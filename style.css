@@ -803,7 +803,7 @@ h6{
 	height:100%;
 	background-color:#27ada6;
 	background: -webkit-linear-gradient(60deg, #27ada6, #40fdab); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(60deg, #007ced, #7bbdf9); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(60deg, #00080eb8, #7bbdf9); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	position:relative;
 	overflow:hidden;
 }
